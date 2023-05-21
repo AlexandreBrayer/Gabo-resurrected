@@ -1,0 +1,22 @@
+{
+  "name": "gabo-resurrected",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'npm --prefix ./api/ run dev' 'npm --prefix ./app/ run dev'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreBrayer/Gabo-resurrected.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreBrayer/Gabo-resurrected/issues"
+  },
+  "homepage": "https://github.com/AlexandreBrayer/Gabo-resurrected#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
